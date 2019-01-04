@@ -13,5 +13,5 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  puts attendees.each {|element| puts badge_maker(element)}
+  attendees.each {|element| puts badge_maker(element)}
 end
