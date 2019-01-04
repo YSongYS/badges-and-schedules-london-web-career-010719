@@ -9,7 +9,7 @@ def batch_badge_creator (attendees)
 end
 
 def assign_rooms (attendees)
-  attendees.each_with_index {|name,room| puts "Hellow, #{name}! You'll be assigned to room #{room}!"}
+  return attendees.each_with_index {|name,room| puts "Hellow, #{name}! You'll be assigned to room #{room}!"}
 end
 
 def printer (attendees)
