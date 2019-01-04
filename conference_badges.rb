@@ -5,11 +5,11 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (attendees)
-  return attendees.each {|name| puts "Hello, my name is #{name}.".inspect}
+  return attendees.map {|name| puts "Hello, my name is #{name}."}
 end
 
 def assign_rooms (attendees)
-  return attendees.each_with_index {|name,room| puts "Hellow, #{name}! You'll be assigned to room #{room}!"}
+  return attendees.map._with_index {|name,room| puts "Hellow, #{name}! You'll be assigned to room #{room}!"}
 end
 
 def printer (attendees)
