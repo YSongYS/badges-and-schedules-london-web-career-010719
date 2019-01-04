@@ -14,5 +14,8 @@ end
 
 def printer (attendees)
   attendees.each {|element| puts badge_maker(element)}
-  assign_rooms (attendees).each {|element| puts element}
+  assign_rooms(attendees).each {|element| puts element}
 end
+
+attendees = ["a","b","c"]
+printer (attendees)
