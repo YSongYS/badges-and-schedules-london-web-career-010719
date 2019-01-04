@@ -13,6 +13,6 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  attendees.each {|element| puts element}
-
+  attendees.each {|element| puts badge_maker(element)}
+  assign_rooms (attendees).each {|element| puts element}
 end
