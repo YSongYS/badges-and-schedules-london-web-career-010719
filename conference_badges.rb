@@ -17,5 +17,5 @@ def printer (attendees)
   assign_rooms(attendees).each {|element| puts element}
 end
 
-attendees = ["a","b","c"]
-printer (attendees)
+#attendees = ["a","b","c"]
+#printer (attendees)
