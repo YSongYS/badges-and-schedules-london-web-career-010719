@@ -14,5 +14,5 @@ end
 
 def printer (attendees)
   attendees.each {|element| puts element}
-  
+
 end
